@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+* {
+    font-family: 'Barlow', sans-serif;
+}
+#sec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    padding-right:0px ;
+}
+#h{
+    width: fit-content;
+    color: #3ebfff;
+    font-size: 50px;  
+}
+#p{
+font-size: 24px;
+width: fit-content;
+}
+#learnmore{
+    border-bottom: 1px solid #ffd602;
+    text-decoration: none;
+    width: fit-content;
+    color: black;
+    font-size: 22px;
+}
+#learnmore:hover{
+border-bottom: 2px solid rgb(144, 12, 12);
+color: black;
+cursor: pointer;
+}
+#photo{
+    height: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#photo img{
+    width: 100%;
+    height: 100%;
+}
+#shoop{
+    padding: 0px;
+    height: 100%;
+}
+#img2{
+    width: 100%;
+    height: 100%;
+}
+#orange{
+    width: 50%;
+    height: 60vh;
+    padding-right: 0px;
+    background-image: url("./image-photography.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#cheery{
+    width: 50%;
+    height: 60vh;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-image: url("./image-graphic-design.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+#h3{
+    color: white;
+}
+.con{
+            text-align: center;
+            position: relative;
+            top: 25%;
+}
+
+@media screen and (max-width:1200px) {
+    #h,#h3{
+        font-size: 30px;
+    }
+    #p{
+        font-size: 16px;
+    }
+    #learnmore{
+        font-size: 16px;
+    }
+
+}
+@media (max-width:900px){
+    .row{
+        height: 60vh;
+    }
+}
+@media screen and (max-width:576px) {
+    .row{
+        flex-wrap: nowrap;
+    }
+    #orange,#cheery,#sec{
+        width: 100%;
+        height: 60vh;
+    }
+   .row #cheery{
+        margin-top: 610px;
+    }
+    #cheery{
+    
+    }
+    .col-12{
+        width: 100%;
+        display: block;
+    }
+    #sec1{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-top: 30px;   
+        margin-bottom: 30px;
+}
+#shoop{
+        margin-top: 288px;
+}
+    #p{
+        font-size: 16px;
+    }
+    #egg{
+        width: 100%;
+    }
+    #img2{
+        width: 100%;
+    }
+}
