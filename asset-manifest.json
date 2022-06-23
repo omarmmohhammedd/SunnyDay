@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/SunnyDay/static/css/main.94ab32f2.css",
+    "main.js": "/SunnyDay/static/js/main.06159b38.js",
+    "static/media/image-header.jpg": "/SunnyDay/static/media/image-header.49b52ffa54752cb7c2d0.jpg",
+    "static/media/image-gallery-milkbottles.jpg": "/SunnyDay/static/media/image-gallery-milkbottles.df1d9d8460e873924250.jpg",
+    "static/media/twitter.png": "/SunnyDay/static/media/twitter.fd52118251d9f94a361c.png",
+    "static/media/image-gallery-sugarcubes.jpg": "/SunnyDay/static/media/image-gallery-sugarcubes.09b72f4fbfbf08579f9d.jpg",
+    "static/media/image-gallery-orange.jpg": "/SunnyDay/static/media/image-gallery-orange.49f4212bc650862672a7.jpg",
+    "static/media/image-gallery-cone.jpg": "/SunnyDay/static/media/image-gallery-cone.461ff4214c3ac822dfff.jpg",
+    "static/media/image-graphic-design.jpg": "/SunnyDay/static/media/image-graphic-design.7ac8bdf0d3df29591a3b.jpg",
+    "static/media/image-photography.jpg": "/SunnyDay/static/media/image-photography.104cf40b52f66520afb0.jpg",
+    "index.html": "/SunnyDay/index.html",
+    "main.94ab32f2.css.map": "/SunnyDay/static/css/main.94ab32f2.css.map",
+    "main.06159b38.js.map": "/SunnyDay/static/js/main.06159b38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94ab32f2.css",
+    "static/js/main.06159b38.js"
+  ]
+}
